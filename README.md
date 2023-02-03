@@ -6,9 +6,10 @@
 
 #### The purpose of this analysis was to tease apart the various factors that influenced the sales of supermarket/grocery items in 2013 for select stores belonging to the international chain Big Mart.
 ---
-### Quick Summary & Recommendations: 
+### Quick Summary:
 * **One specific store in the dataset clearer outperformed the others in terms of sales**.  It was not clear from the information found in the dataset what additional factors where driving sales.
 * **The Machine Learning models utilized here have limited effectiveness** in predicted items sales based on the information found in the dataset.
+### Quick Recommendations:
 * **I would recommend collecting additional data and analysis on the specific top performing store** (e.g. location, store layout, local demographics, HR data, etc.). Doing so would further illuminate what is contributing to its success.  Big Mart could then attempt to recreate the results in additional locations.
 * Additional modeling could be explored on this dataset if prediction is desired.  **However, I would recommend reserving predictive modeling resources for a more detailed dataset that includes both more data and more relevant data.** In my opinion, there is key data missing from the dataset that limits its usefulness.
 ---
@@ -46,15 +47,19 @@ The dataset used in this analysis was originally provided by [Analytics Vidhya](
   * Histograms, Barcharts, and Boxplots
 
 #### Boxplot Visualization
-![Boxplots](link)
-> This Visualization revealed that one specific store was outcompeted the others.
+
+#### **This Visualization revealed that one specific store was outcompeting the others in terms of sales (OUT027, Supermarket Type3)**
+![Boxplots](https://github.com/CRPeace/Grocery_Store_Sales_Analysis_ML/blob/3686b3a63e101c75e49ed72d1102225a8941e0dc/Boxplots.png)
+
 ---
 ### Explanatory Data Analysis
 * In order to present the information distilled from the analysis, the following charts were created:
-![Top Performers](link)
-> This barplot shows shows that we have one store out performing the rest
-![Average Maximum Sales in Each Item Category](link)
-> This shows that the store is outcompeting across nearly all categories of grocery items.
+#### **This barplot shows shows that we have one store outperforming the rest**
+![Top Store.png](https://github.com/CRPeace/Grocery_Store_Sales_Analysis_ML/blob/3686b3a63e101c75e49ed72d1102225a8941e0dc/Top%20Store.png)
+
+
+#### **This shows that the store is outcompeting the others across nearly all categories of grocery items.**
+![Average Maximum Sales in Each Item Category](https://github.com/CRPeace/Grocery_Store_Sales_Analysis_ML/blob/3686b3a63e101c75e49ed72d1102225a8941e0dc/Top%20Items.png)
 ---
 ### Machine Learning Models
 * The following models were assessed on the dataset
@@ -75,7 +80,7 @@ The dataset used in this analysis was originally provided by [Analytics Vidhya](
   * Root Mean Squared Error on Testing Set:	1,043.561
   * R Squared on Testing Set:	0.605
 
-##### **The Decision Tree model is the top performer between the two models utilized to attempt to predict item sales.  However, the size of the errors in the model limit its usefulness.  At best it could potentially account for around 60% of the item price based on the accompanying data**
+### **The Decision Tree model is the top performer between the two models utilized to attempt to predict item sales.  However, the size of the errors in the model limit its usefulness.  At best it could potentially account for around 60% of the item price based on the accompanying data**
 ---
 ## Recommendations:
 
