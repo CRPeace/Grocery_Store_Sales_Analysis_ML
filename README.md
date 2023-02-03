@@ -4,7 +4,7 @@
 
 **Cameron Peace**
 
-#### The purpose of this analysis was to tease apart the various factors that influenced the sales of supermarket/grocery items in 2013 for select stores belonging to the international chain Big Mart.
+#### The purpose of this analysis was to tease apart the various factors present in the dataset that may have influenced the sales of supermarket/grocery items in select stores belonging to the international chain Big Mart during 2013.
 ---
 ### Quick Summary:
 * **One specific store in the dataset clearly outperformed the others in terms of sales**.  From the information found in the dataset, it was difficult to discern what additional factors where driving sales.
