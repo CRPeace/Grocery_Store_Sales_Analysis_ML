@@ -48,7 +48,7 @@ The dataset used in this analysis was originally provided by [Analytics Vidhya](
 
 #### Boxplot Visualization
 
-#### **This Visualization revealed that one specific store was outcompeting the others in terms of sales (OUT027, Supermarket Type3)**
+#### **This visualization revealed that one specific store was outcompeting the others in terms of sales (OUT027, Supermarket Type3)**
 ![Boxplots](https://github.com/CRPeace/Grocery_Store_Sales_Analysis_ML/blob/3686b3a63e101c75e49ed72d1102225a8941e0dc/Boxplots.png)
 
 ---
