@@ -50,7 +50,8 @@ The dataset used in this analysis was originally provided by [Analytics Vidhya](
 
 #### **This visualization revealed that one specific store was outcompeting the others in terms of sales (OUT027, Supermarket Type3)**
 ![Boxplots](https://github.com/CRPeace/Grocery_Store_Sales_Analysis_ML/blob/3686b3a63e101c75e49ed72d1102225a8941e0dc/Boxplots.png)
-* The upper right boxplot diagram shows outlet OUT027 (in purple) displaying higher average sales when compared to other stores.
+* The upper right boxplot diagram shows store outlet OUT027 (in purple) displaying higher average sales when compared to other stores.  This is also reflected in the last diagram, which shows Supermarket Type3 stores with the highest revenue (OUT027 is the only Type3 in the dataset).
+* The remaining boxplot diagrams shows that the rest of the stores are mostly matched in terms of revenue.
 ---
 ### Explanatory Data Analysis
 * In order to present the information distilled from the analysis, the following charts were created:
